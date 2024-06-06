@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    font-family: "Young Serif", serif;
+}
+
+.container{
+    padding: 50px;
+}
+
+.section-one,.contact-form{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container1{
+    text-align: center;
+}
+.section-two{
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+    /* padding: 20px; */
+    border: solid black 2px;
+    vertical-align: top;
+    /* margin-left: 600px; */
+    margin-top: 50px;
+    
+}
+
+.section-three{
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+    /* padding: 20px; */
+    border: solid black 2px;
+    vertical-align: top;
+    /* margin-left: 400px; */
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+.section-four{
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+    /* padding: 20px; */
+    border: solid black 2px;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+.section-five{
+    display: inline-block;
+    width: 350px;
+    height: 450px;
+    /* padding: 20px; */
+    border: solid black 2px;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+.section-two img,.section-three img,.section-four img,.section-five img{
+    height: 320px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red 5px; */
+    margin: auto;
+    padding-top: 10px;
+
+}
+
+
+.section-two__title,.section-three__title,.section-four__title,.section-five__title{
+    font-size: 20px;
+    text-align: center;
+    /* border: solid red 2px; */
+    padding-top: 10px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    font-size: 15px;
+    text-align: center;
+}
+
+.contact-form{
+    /* padding-left: 1250px; */
+    border: solid orangered 2px;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.section-two__submit,.section-three__submit,.section-four__submit,.section-five__submit{
+    background-color: orangered;
+    color: white;
+    border: none;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+
+.contact-form__submit {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: orangered;
+    color: black;
+    border: none;
+    text-align: center;
+}
+
+.contact-form__input,.contact-form__age,.contact-form__email{
+    margin-top: 10px;
+    height: 20px;
+    margin-left: 10px;
+    
+}
